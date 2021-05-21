@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slist Model</title>
-
-    <link rel="stylesheet" href="<?php echo INCLUDE_PATH ?>src/styles/main.css">
+    <?php Render::Style('main') ?>
+    <?php Render::Style('text') ?>
 </head>
 
 <body>

@@ -12,7 +12,4 @@ function MyAutoLoad($class)
 
 spl_autoload_register('MyAutoLoad');
 
-define('INCLUDE_PATH', '/slist/models/slist-model/');
-
-
-die(INCLUDE_PATH);
+define('INCLUDE_PATH', '/slist/models/');

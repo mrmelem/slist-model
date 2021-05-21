@@ -14,4 +14,10 @@ class Render
     {
         return include('./src/views/' . $page . '/index.php');
     }
+
+    public static function Style($style)
+    {
+        $style = INCLUDE_PATH . 'src/styles/' . $style . '.css';
+        echo '<link rel="stylesheet" href="' . $style . '">';
+    }
 }
